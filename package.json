@@ -1,0 +1,22 @@
+{
+  "name": "lunch-app-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dezash/lunch-app-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dezash/lunch-app-tests/issues"
+  },
+  "homepage": "https://github.com/Dezash/lunch-app-tests#readme",
+  "dependencies": {
+    "cypress": "^5.1.0"
+  }
+}
