@@ -8,7 +8,7 @@ beforeEach('Executes  before each test', () =>{
     cy.get(':nth-child(1) > .v-input__control > .v-input__slot > .v-text-field__slot > input').type(Cypress.env('email'))
     cy.get(':nth-child(2) > .v-input__control > .v-input__slot > .v-text-field__slot > input').type(Cypress.env('password'))
     cy.get('.v-btn').click()
-    cy.get('.d-flex > .v-subheader').contains('Admin Yellow')
+    cy.get('.d-flex > .v-subheader').should('exist')
 })
 
 describe('orders food', ()=>{
