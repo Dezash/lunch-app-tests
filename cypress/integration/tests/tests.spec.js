@@ -25,3 +25,8 @@ it("should contain searcselect every day, every provider menu", () => {
         cy.get($item).click()
     })
 }) 
+
+it("should contain searcselect every day, every provider menu", () => {
+    cy.get('.v-list__tile__action').first().click()
+}) 
+
